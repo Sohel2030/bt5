@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bootstrap Grid</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!-- main  css file  -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+  </head>
+  <body>
+    For example,<code>&lt;section&gt; should be wrapped as inline.</code>
+
+
+
+    To witch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+    To edit settings, press<kbd><kbd>Ctrl</kbd> + <kbd> , </kbd></kbd>
+
+
+<!-- table -->
+    <table>
+      <caption>
+        This is an example table, and this is its caption</caption>
+        <thead>
+          <tr>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+            <th>Table heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Table call</td>
+            <td>Table call</td>
+            <td>Table call</td>
+            <td>Table call</td>
+          </tr>
+          <tr>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+    </tr>
+    <tr>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+    </tr>
+  </tbody>
+</table>
+<!-- h1 -->
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+<!-- form -->
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+  </div>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+<div class="mb-3">
+  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+  <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+<div class="mb-3">
+  <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+  <input class="form-control" type="file" id="formFileDisabled" disabled>
+</div>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Small file input example</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+</div>
+<div>
+  <label for="formFileLg" class="form-label">Large file input example</label>
+  <input class="form-control form-control-lg" id="formFileLg" type="file">
+</div>
+<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+<!-- radios -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+</div>
+
+
+<dl class="row text-center">
+  <dt class="col-sm-3">Description lists</dt>
+  <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+  <dt class="col-sm-3">Term</dt>
+  <dd class="col-sm-9">
+    <p>Definition for the term.</p>
+    <p>And some more placeholder definition text.</p>
+  </dd>
+
+  <dt class="col-sm-3">Another term</dt>
+  <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
+
+  <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+  <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+
+  <dt class="col-sm-3">Nesting</dt>
+  <dd class="col-sm-9">
+    <dl class="row">
+      <dt class="col-sm-4">Nested definition list</dt>
+      <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
+    </dl>
+  </dd>
+</dl>
+<div class="text-center">
+<img src="imgaes/new.png" class="rounded" alt="pik">
+</div>
+
+
+<!-- range -->
+<label for="customRange1" class="form-label">Example range</label>
+<input type="range" class="form-range" id="customRange1">
+
+<!-- gutters -->
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+
+
+
+
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+<ul class="list-unstyled text-center">
+  <li>This is a list.</li>
+  <li>It appears completely unstyled.</li>
+  <li>Structurally, it's still a list.</li>
+  <li>However, this style only applies to immediate child elements.</li>
+  <li>Nested lists:
+    <ul>
+      <li>are unaffected by this style</li>
+      <li>will still show a bullet</li>
+      <li>and have appropriate left margin</li>
+    </ul>
+  </li>
+  <li>This may still come in handy in some situations.</li>
+</ul>
+<!-- hr -->
+    <hr>
+<div class="text-success">
+  <hr>
+</div>
+
+<hr class="border border-danger border-5 opacity-100">
+<hr class="border border-primary border-5 opacity-100">
+
+
+
+
+<!-- box -->
+
+    <div class="container mt-5 mb-3">
+      <div class="row text-light text-center">
+        <div class="col-lg-6 mb-2">
+          <div class="box">box 1</div>
+        </div>
+        <div class="col-lg-6 mb-2">
+          <div class="box">box 2</div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row text-light text-center">
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="box">box 1</div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="box">box 2</div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-2">
+          <div class="box">box 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row text-light text-center">
+        <div class="col-lg-3 col-md-6 mb-2">
+          <div class="box">box 1</div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-2">
+          <div class="box">box 2</div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-2">
+          <div class="box">box 3</div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-2">
+          <div class="box">box 4</div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row text-light text-center">
+        <div class="col-lg mb-2">
+          <div class="box">box 1</div>
+        </div>
+        <div class="col-lg mb-2">
+          <div class="box">box 2</div>
+        </div>
+        <div class="col-lg mb-2">
+          <div class="box">box 3</div>
+        </div>
+        <div class="col-lg mb-2">
+          <div class="box">box 4</div>
+        </div>
+        <div class="col-lg">
+          <div class="box mb-2">box 5</div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row text-light text-center">
+        <div class="col-xxl-4 col-lg col-md-6 col-sm-4 col-12 mb-2">
+          <div class="box">box 1</div>
+        </div>
+        <div class="col-xxl-4 col-lg-7 col-md-6 col-sm-4 mb-2">
+          <div class="box">box 2</div>
+        </div>
+        <!-- table2 -->
+          <div class="table-responsive">
+          <table class="table table-hover text-center table-bordered">
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Address</th>
+            </tr>
+            <tr>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+            </tr>
+             <tr>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+
+            </tr>
+             <tr>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+              <td>Data</td>
+            </tr>
+            </table>
+        </div>
+      </div>
+    </div>
+    <table class="table text-center">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+    <!-- js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
